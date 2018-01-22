@@ -8,9 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = GetWeather::VERSION
   spec.authors       = ["emilymalecbrown"]
   spec.email         = ["emilymalecbrown@gmail.com"]
-
   spec.summary       = "This is a scraper that displays the current weather of any zip code."
-  # spec.homepage      = "None"
+  spec.homepage      = "https://github.com/emilymalecbrown/weather_cli.git"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -35,5 +34,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "pry"
 
   spec.add_dependency "nokogiri"
-
 end
