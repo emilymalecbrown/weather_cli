@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "get_weather"
+
+GetWeather::CLI.new.call
